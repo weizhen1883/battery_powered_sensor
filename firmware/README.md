@@ -13,7 +13,7 @@
 ## Usage
 
 ## Releases
-#### Release 1
+#### Release-1
 - version 1.0.0
 
 ## Versions

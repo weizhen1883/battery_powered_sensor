@@ -15,10 +15,10 @@
 1. open the battery_powered_sensor.brd file
 2. click "CMA Processor"
 3. load the CAM.cam file, and click "process job"
-4. the PCB files are generated in "outputs" folder 
+4. the PCB files are generated in "outputs" folder
 
 ## Releases
-#### Release 1
+#### Release-1
 - Version 1.0.0
 
 ## Versions
