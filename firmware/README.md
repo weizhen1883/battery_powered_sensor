@@ -8,6 +8,7 @@
 5. [Licenses](#licenses)
 
 ## Requirements
+1. nRF5_SDK v17.1.0
 
 ## Usage
 
