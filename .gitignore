@@ -1,2 +1,5 @@
 hardware/*.*#*
 hardware/outputs
+firmware/build/armgcc/_build
+**/.DS_Store
+**/@eaDir
