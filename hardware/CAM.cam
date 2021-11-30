@@ -1,0 +1,257 @@
+{
+    "author": {
+        "email": "al6g2@mail.umsl.edu",
+        "name": "Anqi Liu"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "filename_prefix": "outputs",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": false,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GTL",
+                    "layers": [
+                        1,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "TOP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "BOTTOM",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GBL",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "BOTTOM",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "MILL",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GML",
+                    "layers": [
+                        46
+                    ],
+                    "milling": false,
+                    "name": "MILL",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "BOTTOM SMD",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GBS",
+                    "layers": [
+                        30,
+                        32
+                    ],
+                    "milling": false,
+                    "name": "BOTTOM SMD",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "TOP SMD",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GTS",
+                    "layers": [
+                        31,
+                        29
+                    ],
+                    "milling": false,
+                    "name": "TOP SMD",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "TOP SCK",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GTO",
+                    "layers": [
+                        20,
+                        21,
+                        25
+                    ],
+                    "milling": false,
+                    "name": "TOP SCK",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "BOTTOM SCK",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GBO",
+                    "layers": [
+                        20,
+                        22,
+                        26
+                    ],
+                    "milling": false,
+                    "name": "BOTTOM SCK",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "description": "TOP PASTE",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GTP",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "TOP PASTE",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "description": "BOTTOM PASTE",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "outputs/%N.GBP",
+                    "layers": [
+                        32
+                    ],
+                    "milling": false,
+                    "name": "BOTTOM PASTE",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        },
+        {
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "outputs/%N.drd",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "DRILL",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2021-11-30T01:08:47",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "8.6.1"
+}
