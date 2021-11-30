@@ -1,0 +1,5 @@
+[submodule "firmware/nRF5_SDK"]
+	path = firmware/nRF5_SDK
+	url = https://github.com/weizhen1883/nRF5_SDK.git
+	branch = v17.1.0
+  	ignore = dirty
